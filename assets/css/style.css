@@ -74,5 +74,15 @@ input::placeholder {
   min-height: 4px;
   width: 30px;
   margin-bottom: 3px;
-
+}
+.curser_pointer {
+  cursor: pointer;
+}
+.w_100 {
+  width: 100%;
+}
+@media (max-width: 576px) {
+  .w_100 {
+    width: 100%;
+  }
 }
