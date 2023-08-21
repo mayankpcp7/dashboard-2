@@ -1,0 +1,78 @@
+* {
+  list-style-type: none !important;
+  text-decoration: none !important;
+  font-family: "DM Sans" !important;
+}
+.mw_351px {
+  min-width: 341px;
+}
+.outline-0 {
+  outline: none;
+}
+.border_none {
+  border: none !important;
+}
+input::placeholder {
+  padding-left: 22px;
+}
+.bg_card {
+  background-color: rgba(28, 29, 36, 1) !important;
+  border: 1px solid rgba(109, 125, 147, 0.15);
+  border-radius: 12px;
+}
+.my_container {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.app {
+  border: 1px solid rgba(109, 125, 147, 0.15);
+  border-radius: 12px;
+}
+.add {
+  color: rgba(109, 125, 147, 1);
+  border: 0.5px solid rgba(109, 125, 147, 0.4);
+  border-radius: 6px;
+  color: rgba(109, 125, 147, 1) !important;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.border_card {
+  border: 1px solid rgba(0, 0, 0, 0.01);
+  box-shadow: 4px 4px 20px -10px rgba(0, 0, 0, 0.1);
+}
+.bg_target {
+  box-shadow: 4px 4px 20px -10px rgba(0, 0, 0, 0.1);
+  background-color: rgba(28, 29, 36, 1);
+  border: 1px solid rgba(109, 125, 147, 0.15);
+  border-radius: 12px;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.w_95 {
+  width: 95%;
+}
+.hover_change:hover {
+  background-color: var(--color-darkblue) !important;
+}
+:hover.bg_card .hover_white {
+  color: white !important;
+}
+.aside_hover:hover path {
+  fill: rgba(53, 87, 195, 1);
+}
+.aside_hover:hover g {
+  opacity: 100;
+}
+.lable span {
+  background-color: white;
+  min-height: 4px;
+  width: 30px;
+  margin-bottom: 3px;
+
+}

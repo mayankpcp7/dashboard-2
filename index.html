@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/root.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body >
+    <div>
+      <Dashboard class="d-flex vh-100">
+        <aside class="bg_darkblack pt-4 pb-3 ">
+          <div class="d-flex flex-column justify-content-between h-100 px-4">
+            <ul class="ps-0">
+              <li>
+                <img src="./assets/images/png/aside_1.png" alt="aside_1" />
+              </li>
+              <li class="pt-5">
+                <svg class="aside_hover"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g opacity="0.4" clip-path="url(#clip0_2_279)">
+                    <path
+                      d="M3.99998 0H6.99998C9.20911 0 11 1.79086 11 3.99998V6.99998C11 9.20911 9.20911 11 6.99998 11H3.99998C1.79086 11 0 9.20916 0 6.99998V3.99998C0 1.79086 1.79086 0 3.99998 0Z"
+                      fill="#D1D1D1"
+                    />
+                    <path
+                      d="M17 0H20C22.2091 0 24 1.79086 24 3.99998V6.99998C24 9.20911 22.2091 11 20 11H17C14.7909 11 13 9.20911 13 6.99998V3.99998C13 1.79086 14.7908 0 17 0Z"
+                      fill="#D1D1D1"
+                    />
+                    <path
+                      d="M3.99998 13H6.99998C9.20911 13 11 14.7909 11 17V20C11 22.2091 9.20911 24 6.99998 24H3.99998C1.79086 24 0 22.2092 0 20V17C0 14.7909 1.79086 13 3.99998 13Z"
+                      fill="#D1D1D1"
+                    />
+                    <path
+                      d="M17 13H20C22.2091 13 24 14.7909 24 17V20C24 22.2092 22.2091 24 20 24H17C14.7909 24 13 22.2092 13 20V17C13 14.7909 14.7908 13 17 13Z"
+                      fill="#D1D1D1"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_2_279">
+                      <rect width="24" height="24" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </li>
+              <li class="pt-5">
+                <svg class="aside_hover"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g opacity="0.4">
+                    <path
+                      d="M15 8.00002H21.54C21.1909 7.0749 20.6485 6.2349 19.949 5.53604L16.465 2.05004C15.7653 1.35137 14.9251 0.80935 14 0.460037V7.00004C14 7.55227 14.4477 8.00002 15 8.00002Z"
+                      fill="#D1D1D1"
+                    />
+                    <path
+                      d="M21.976 9.99998H15C13.3432 9.99998 12 8.65683 12 6.99998V0.024C11.839 0.0129844 11.678 0 11.515 0H6.99998C4.23994 0.00332812 2.0033 2.23997 2.00002 5.00002V19C2.0033 21.76 4.23994 23.9967 6.99998 24H17C19.76 23.9967 21.9967 21.76 22 19V10.485C22 10.322 21.987 10.161 21.976 9.99998Z"
+                      fill="#D1D1D1"
+                    />
+                  </g>
+                </svg>
+              </li>
+              <li class="pt-5">
+                <svg class="aside_hover"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g opacity="0.4" clip-path="url(#clip0_2_289)">
+                    <path
+                      d="M12 6C11.2044 6 10.4413 6.31607 9.87868 6.87868C9.31607 7.44129 9 8.20435 9 9V21C9 21.7956 9.31607 22.5587 9.87868 23.1213C10.4413 23.6839 11.2044 24 12 24C12.7956 24 13.5587 23.6839 14.1213 23.1213C14.6839 22.5587 15 21.7956 15 21V9C15 8.20435 14.6839 7.44129 14.1213 6.87868C13.5587 6.31607 12.7956 6 12 6Z"
+                      fill="#D1D1D1"
+                    />
+                    <path
+                      d="M21 0C20.2044 0 19.4413 0.31607 18.8787 0.87868C18.3161 1.44129 18 2.20435 18 3V21C18 21.7956 18.3161 22.5587 18.8787 23.1213C19.4413 23.6839 20.2044 24 21 24C21.7956 24 22.5587 23.6839 23.1213 23.1213C23.6839 22.5587 24 21.7956 24 21V3C24 2.20435 23.6839 1.44129 23.1213 0.87868C22.5587 0.31607 21.7956 0 21 0V0Z"
+                      fill="#D1D1D1"
+                    />
+                    <path
+                      d="M3 12C2.20435 12 1.44129 12.3161 0.87868 12.8787C0.31607 13.4413 0 14.2044 0 15L0 21C0 21.7956 0.31607 22.5587 0.87868 23.1213C1.44129 23.6839 2.20435 24 3 24C3.79565 24 4.55871 23.6839 5.12132 23.1213C5.68393 22.5587 6 21.7956 6 21V15C6 14.2044 5.68393 13.4413 5.12132 12.8787C4.55871 12.3161 3.79565 12 3 12Z"
+                      fill="#D1D1D1"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_2_289">
+                      <rect width="24" height="24" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </li>
+              <li class="pt-5">
+                <svg class="aside_hover"
+                  width="25"
+                  height="25"
+                  viewBox="0 0 25 25"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g id="iconspace_Wallet_25px" opacity="0.4">
+                    <path
+                      id="Combined Shape"
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M4.5 7H19V4.5C19 3.67157 18.3284 3 17.5 3C17.4383 3 17.3767 3.00381 17.3154 3.0114L4.16959 4.64132C2.92758 4.80692 2 5.86638 2 7.11939V8.05051C2.63526 7.40223 3.52066 7 4.5 7ZM20.5 8H4.5C3.81814 8 3.18214 8.27292 2.71424 8.75041L2 9.47928V20.5C2 21.8807 3.11929 23 4.5 23H20.5C21.8807 23 23 21.8807 23 20.5V19H17.5C15.567 19 14 17.433 14 15.5C14 13.567 15.567 12 17.5 12H23V10.5C23 9.11929 21.8807 8 20.5 8ZM17.5 13C16.1193 13 15 14.1193 15 15.5C15 16.8807 16.1193 18 17.5 18H23V13H17.5Z"
+                      fill="#D1D1D1"
+                    />
+                  </g>
+                </svg>
+              </li>
+            </ul>
+
+            <div class="d-flex flex-column align-items-center">
+              <div>
+                <svg class="aside_hover"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g opacity="0.4">
+                    <path
+                      d="M1.60702 18C2.43417 19.4356 4.26853 19.9288 5.70412 19.1017C5.70511 19.1011 5.70605 19.1005 5.70703 19.1L6.15201 18.843C6.99201 19.5616 7.95755 20.119 9 20.487V21C9 22.6568 10.3432 24 12 24C13.6568 24 15 22.6568 15 21V20.487C16.0426 20.1184 17.0082 19.5604 17.848 18.841L18.295 19.099C19.7309 19.9274 21.5666 19.4349 22.395 17.999C23.2234 16.563 22.731 14.7274 21.295 13.899L20.851 13.643C21.0509 12.5554 21.0509 11.4405 20.851 10.353L21.295 10.097C22.7309 9.26855 23.2234 7.43292 22.395 5.99695C21.5666 4.56103 19.731 4.06852 18.295 4.89694L17.85 5.15395C17.0092 4.43616 16.043 3.87984 15 3.513V3C15 1.34316 13.6568 0 12 0C10.3432 0 9 1.34316 9 3V3.513C7.95741 3.88158 6.99183 4.43958 6.15201 5.15902L5.70502 4.90003C4.26905 4.07156 2.43342 4.56408 1.605 6C0.776578 7.43592 1.26905 9.27159 2.70502 10.1L3.14902 10.356C2.94914 11.4435 2.94914 12.5584 3.14902 13.646L2.70502 13.902C1.27303 14.7326 0.782156 16.5647 1.60702 18ZM12 8.00002C14.2091 8.00002 16 9.79088 16 12C16 14.2091 14.2091 16 12 16C9.79087 16 8.00002 14.2091 8.00002 12C8.00002 9.79088 9.79087 8.00002 12 8.00002Z"
+                      fill="white"
+                    />
+                  </g>
+                </svg>
+              </div>
+              <div class="pt-5">
+                <svg class="aside_hover"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g opacity="0.4">
+                    <path
+                      d="M9 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V5C3 4.46957 3.21071 3.96086 3.58579 3.58579C3.96086 3.21071 4.46957 3 5 3H9"
+                      stroke="white"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M16 17L21 12L16 7"
+                      stroke="white"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M21 12H9"
+                      stroke="white"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </g>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </aside>
+        <main class="bg_darkgrey w-100 overflow-scroll overflow-x-hidden ">
+          <div class="d-flex   justify-content-between bg_darkgrey z-3  py-3 position-fixed w_95">
+            <div>
+              <p class="text-white fs_xxl ff_dmsans mb-0 fw-bold">Dashboard</p>
+            </div>
+            <div class="d-flex d-lg-none  flex-column justify-content-center lable">
+            <span></span>
+            <span></span>
+            <span></span>
+            </div>
+          
+            <div class="d-none d-lg-flex align-items-center pe-5 ">
+              <div
+                class="d-flex align-items-center bg_grey py-2 rounded-2 ps-2 d-none d-lg-flex"
+              >
+                <div>
+                  <img
+                    src="./assets/images/png/search_icon.png"
+                    alt="search_icon"
+                  />
+                </div>
+                <div>
+                  <input
+                    class="mw_351px bg_grey outline-0 border_none rounded-2"
+                    type="text"
+                    placeholder="Search for transaction, item, etc"
+                  />
+                </div>
+              </div>
+              
+              <div class="px-3">
+                <img src="./assets/images/svg/bell.svg" alt="bell" />
+              </div>
+              <div class="px-3">
+                <img src="./assets/images/svg/comment.svg" alt="comment" />
+              </div class="px-3">
+              <div class="px-3"><img src="./assets/images/png/Mask group.png" alt="maskgroup"></div>
+              <div><img src="./assets/images/svg/dropdown.svg" alt="arrows"></div>
+            </div>
+            
+          </div>
+          
+     
+          <div class="row mt-3 p-3 mt-5 pt-5">
+            <div class="col-lg-9">
+              <div class="row">
+                <div class="col-md-4 col-xl-3 col-sm-6 py-2 ">
+                  <div
+                    class="d-flex flex-column changeBack py-3 px-2 bg_card p-3 hover_change h-100"
+                  >
+                    <p class="ff_dmsans text-white fs_sm">Total Earning</p>
+                    <h4 class="color_lightgrey ff_dmsans fw-bold hover_white">$ 120,000</h4>
+                    <div
+                      class="d-flex justify-content-between align-items-start changeBack"
+                      onclick="message()"
+                    >
+                      <p class="color_lightgrey ff_dmsans">
+                        12%
+                        <span class="text-white-50 color_lightgrey hover_white">Increase From Target</span>
+                      </p>
+                      <img
+                        src="./assets/images/png/down_arrow.png"
+                        alt="down_arrow"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-xl-3 col-sm-6 py-2 ">
+                  <div
+                    class="d-flex flex-column changeBack py-3 px-2 bg_card p-3 hover_change h-100"
+                  >
+                    <p class="ff_dmsans text-white fs_sm">Invoices</p>
+                    <h4 class="color_lightgrey ff_dmsans fw-bold hover_white">$ 16,500</h4>
+                    <div
+                      class="d-flex justify-content-between align-items-start changeBack"
+                      onclick="message()"
+                    >
+                      <p class="color_lightgrey ff_dmsans ">
+                        12%
+                        <span class="text-white-50 hover_white"> Decrease From Target</span>
+                      </p>
+                      <img
+                        src="./assets/images/png/down_arrow.png"
+                        alt="down_arrow"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-xl-3 col-sm-6 py-2 ">
+                  <div
+                    class="d-flex flex-column changeBack py-3 px-2 bg_card p-3 hover_change h-100"
+                  >
+                    <p class="ff_dmsans text-white fs_sm">Total Earning</p>
+                    <h4 class="color_lightgrey ff_dmsans fw-bold hover_white">$ 48,670</h4>
+                    <div
+                      class="d-flex justify-content-between align-items-start changeBack"
+                      onclick="message()"
+                    >
+                      <p class="color_lightgrey ff_dmsans">
+                        6%
+                        <span class="text-white-50 hover_white">Increase From Target</span>
+                      </p>
+                      <img
+                        src="./assets/images/png/down_arrow.png"
+                        alt="down_arrow"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-xl-3 col-sm-6 py-2 ">
+                  <div
+                    class="d-flex flex-column changeBack py-3 px-2 bg_card p-3 hover_change h-100"
+                  >
+                    <p class="ff_dmsans text-white fs_sm">Balance</p>
+                    <h4 class="color_lightgrey ff_dmsans fw-bold hover_white">$ 74,330</h4>
+                    <div
+                      class="d-flex justify-content-between align-items-start changeBack"
+                      onclick="message()"
+                    >
+                      <p class="color_lightgrey ff_dmsans">
+                        1%
+                        <span class="text-white-50 hover_white">Increase From Target</span>
+                      </p>
+                      <img
+                        src="./assets/images/png/down_arrow.png"
+                        alt="down_arrow"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p class="text-white ff_dmsans fw-bold fs_lg pt-3">
+                Analitcs Report
+              </p>
+              <div class="position-relative">
+                <img
+                  class="w-100"
+                  src="./assets/images/png/graph_img.png"
+                  alt="graph_img"
+                />
+              </div>
+              <div>
+                <p class="text-white ff_dmsans fs_md ps-3">Activity Summary</p>
+              </div>
+              <div>
+                <img
+                  class="w-100"
+                  src="./assets/images/png/hisory.png"
+                  alt="hisory"
+                />
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="d-flex flex-column">
+                <div class="card bg_card py-4 border_card shadow">
+                  <p class="ff_dmsans text-white fw-bold ps-4">
+                    My Account Bank
+                  </p>
+                  <div>
+                    <img
+                      class="w-lg-100"
+                      src="./assets/images/png/Card.png"
+                      alt="card"
+                    />
+                  </div>
+                  <div class="mx-auto mt-3">
+                    <a href="#" class="add bg_darkgrey fs_2xsm fw-bold">
+                      <img src="./assets/images/svg/plus.svg" alt="plus" /> Add
+                      New Card
+                    </a>
+                  </div>
+                </div>
+                <div class="bg_target px-3 pt-4 mt-4">
+                  <p class="text-start text-white ff_dmsans fs_xsm fw-bold">
+                    Target
+                  </p>
+                  <div class="d-flex flex-column">
+                    <div
+                      class="d-flex align-items-center justify-content-between bg_darkgrey rounded-2 p-3"
+                    >
+                      <div>
+                        <img
+                          src="./assets/images/png/target_1.png"
+                          alt="target_1"
+                        />
+                      </div>
+                      <div>
+                        <h5 class="text-white ff_dmsans fs_2xsm fw-bold mb-0">
+                          Sale of goods
+                        </h5>
+                        <p class="color_lightgrey ff_dmsans fs_3xsm pt-2 mb-0">
+                          1 month later
+                        </p>
+                      </div>
+                      <div>
+                        <img src="./assets/images/svg/arrow_next.png" alt="" />
+                      </div>
+                    </div>
+                    <div
+                      class="d-flex align-items-center justify-content-between bg_darkgrey rounded-2 p-3"
+                    >
+                      <div>
+                        <img
+                          src="./assets/images/png/target_2.png"
+                          alt="target_1"
+                        />
+                      </div>
+                      <div>
+                        <h5 class="text-white ff_dmsans fs_2xsm fw-bold mb-0">
+                          Sale of goods
+                        </h5>
+                        <p class="color_lightgrey ff_dmsans fs_3xsm pt-2 mb-0">
+                          1 month later
+                        </p>
+                      </div>
+                      <div>
+                        <img src="./assets/images/svg/arrow_next.png" alt="" />
+                      </div>
+                    </div>
+                    <div
+                      class="d-flex align-items-center justify-content-between bg_darkgrey rounded-2 p-3"
+                    >
+                      <div>
+                        <img
+                          src="./assets/images/png/target_3.png"
+                          alt="target_1"
+                        />
+                      </div>
+                      <div>
+                        <h5 class="text-white ff_dmsans fs_2xsm fw-bold mb-0">
+                          Sale of goods
+                        </h5>
+                        <p class="color_lightgrey ff_dmsans fs_3xsm pt-2 mb-0">
+                          1 month later
+                        </p>
+                      </div>
+                      <div>
+                        <img src="./assets/images/svg/arrow_next.png" alt="" />
+                      </div>
+                    </div>
+                    <div
+                      class="d-flex align-items-center justify-content-between bg_darkgrey rounded-2 p-3"
+                    >
+                      <div>
+                        <img
+                          src="./assets/images/png/target_4.png"
+                          alt="target_1"
+                        />
+                      </div>
+                      <div>
+                        <h5 class="text-white ff_dmsans fs_2xsm fw-bold mb-0">
+                          Sale of goods
+                        </h5>
+                        <p class="color_lightgrey ff_dmsans fs_3xsm pt-2 mb-0">
+                          1 month later
+                        </p>
+                      </div>
+                      <div>
+                        <img src="./assets/images/svg/arrow_next.png" alt="" />
+                      </div>
+                    </div>
+                    <div
+                      class="d-flex align-items-center justify-content-between bg_darkgrey rounded-2 p-3"
+                    >
+                      <div>
+                        <img
+                          src="./assets/images/png/target_5.png"
+                          alt="target_1"
+                        />
+                      </div>
+                      <div>
+                        <h5 class="text-white ff_dmsans fs_2xsm fw-bold mb-0">
+                          Sale of goods
+                        </h5>
+                        <p class="color_lightgrey ff_dmsans fs_3xsm pt-2 mb-0">
+                          1 month later
+                        </p>
+                      </div>
+                      <div>
+                        <img src="./assets/images/svg/arrow_next.png" alt="" />
+                      </div>
+                    </div>
+                    <div
+                      class="d-flex align-items-center justify-content-between bg_darkgrey rounded-2 p-3"
+                    >
+                      <div>
+                        <h5 class="text-white ff_dmsans fs_2xsm fw-bold mb-0">
+                          Sale of goods
+                        </h5>
+                        <p class="color_lightgrey ff_dmsans fs_3xsm pt-2 mb-0">
+                          1 month later
+                        </p>
+                      </div>
+                      <div>
+                        <img src="./assets/images/svg/arrow_next.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </Dashboard>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/index.js"></script>
+  </body>
+</html>
